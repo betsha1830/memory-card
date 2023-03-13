@@ -44,7 +44,7 @@ export default function Cards(props) {
       tempArr[rand_numbers[index]] = key
     })
 
-    console.log(tempArr)
+    props.passSetRandomItem(tempArr)
 
   }
 
@@ -56,7 +56,14 @@ export default function Cards(props) {
   return (
     <div className='cards'>
       <button onClick={randomizer}>kek</button>
-      {}
+      {props.passRandomItem.map(item => {
+        return(
+          <div onClick={randomizer} className='sticky-card'>
+            <img className='game-card' src={card_name_with_titles[item]} alt={''}></img>
+            <div>{item}</div>
+          </div>
+        )
+      })}
     </div>
   )
 }
