@@ -49,7 +49,19 @@ export default function Cards(props) {
   }
 
   // Checks if the user hasn't selected the same image twice
-  function checkSelection () {
+  function checkSelection (selected_item) {
+    if (!(props.passUserChoice.includes(selected_item))){
+      props.passSetCurrentScore(props.passCurrentScore + 1)
+      props.passSetUserChoice(props.passUserChoice.concat(selected_item))
+      randomizer()
+    }
+    else{
+      if (props.passCurrentScore > props.passBestScore) 
+       props.passSetBestScore(props.passCurrentScore) 
+      props.passSetCurrentScore(0)
+      props.passSetUserChoice([])
+      randomizer()
+    }
 
   }
 
@@ -58,7 +70,7 @@ export default function Cards(props) {
       <button onClick={randomizer}>kek</button>
       {props.passRandomItem.map(item => {
         return(
-          <div onClick={randomizer} className='sticky-card'>
+          <div onClick={() => checkSelection(item)} className='sticky-card'>
             <img className='game-card' src={card_name_with_titles[item]} alt={''}></img>
             <div>{item}</div>
           </div>
