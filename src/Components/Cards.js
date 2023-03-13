@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../Styles/Cards.css'
 import PresentingSticky from '../Images/doodle-man-presenting-graph.png'
 import KingSticky from '../Images/king-stickman.png'
@@ -26,17 +26,37 @@ export default function Cards(props) {
     "Superhero Sticky": SuperheroSticky,
   }
 
+  // Will change the image positions randomly
+  function randomizer () {
+    let card_elements = Object.keys(card_name_with_titles).length
+    let rand_numbers = [], counter = 0
+    let tempArr = []
+    
+    while (counter < 10) {
+      let random_number = Math.floor(Math.random() * card_elements)
+      if(!rand_numbers.includes(random_number)){
+        rand_numbers.push(random_number)
+        counter++
+      }
+    }
+
+    Object.keys(card_name_with_titles).forEach((key, index) => {
+      tempArr[rand_numbers[index]] = key
+    })
+
+    console.log(tempArr)
+
+  }
+
+  // Checks if the user hasn't selected the same image twice
+  function checkSelection () {
+
+  }
+
   return (
     <div className='cards'>
-      {Object.keys(card_name_with_titles).map(key => {
-        return(
-          <div className='display-card'>
-            <img className='game-card' src={card_name_with_titles[key]} alt={''}></img>
-            <span>{key}</span>
-            {console.log(typeof(key))}
-          </div>
-        )
-      })}
+      <button onClick={randomizer}>kek</button>
+      {}
     </div>
   )
 }
