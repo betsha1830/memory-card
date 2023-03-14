@@ -66,16 +66,19 @@ export default function Cards(props) {
   }
 
   return (
-    <div className='cards'>
-      <button onClick={randomizer}>kek</button>
-      {props.passRandomItem.map(item => {
-        return(
-          <div onClick={() => checkSelection(item)} className='sticky-card'>
-            <img className='game-card' src={card_name_with_titles[item]} alt={''}></img>
-            <div>{item}</div>
-          </div>
-        )
-      })}
+    <div className='parent'>
+      <button className='start-game-button' onClick={randomizer}>Start Game</button>
+      <div className='cards'>
+        {props.passRandomItem.map(item => {
+          return(
+            <div onClick={() => checkSelection(item)} className='sticky-card'>
+              <img className='game-card' src={card_name_with_titles[item]} alt={''}></img>
+              <h4 className='card-description'>{item}</h4>
+            </div>
+          )
+        })}
+      </div>
+      
     </div>
   )
 }
