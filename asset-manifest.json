@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.bda9c172.css",
+    "main.js": "/memory-card/static/js/main.d543d7b9.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/stickman-running-on-treadmill.png": "/memory-card/static/media/stickman-running-on-treadmill.2b66c87beabb1821403e.png",
+    "static/media/stickman-watching-tv.png": "/memory-card/static/media/stickman-watching-tv.fabd1fa1e6c10c2cff9e.png",
+    "static/media/king-stickman.png": "/memory-card/static/media/king-stickman.22919466876f6ac80068.png",
+    "static/media/stickman-putting-money-in-piggy-bank.png": "/memory-card/static/media/stickman-putting-money-in-piggy-bank.b2e1158cc3ff4f97e366.png",
+    "static/media/lazy-stickman-sleeping-on-office-desk.png": "/memory-card/static/media/lazy-stickman-sleeping-on-office-desk.112a2fa54fe9d8a0aaf7.png",
+    "static/media/doodle-man-presenting-graph.png": "/memory-card/static/media/doodle-man-presenting-graph.1e1497fd96a676fe83af.png",
+    "static/media/stickman-sleeping.png": "/memory-card/static/media/stickman-sleeping.0cb5388a9b7e73710b70.png",
+    "static/media/stick-man-with-flower-pot.png": "/memory-card/static/media/stick-man-with-flower-pot.c27bf19ae0e53e410e67.png",
+    "static/media/super-stickman.png": "/memory-card/static/media/super-stickman.2ac473125a1a2eb0fc30.png",
+    "static/media/monk-stickman.png": "/memory-card/static/media/monk-stickman.19499567e23f2db22e73.png",
+    "static/media/stickman-working-on-laptop.png": "/memory-card/static/media/stickman-working-on-laptop.d0c865d40f64d7103080.png",
+    "static/media/stickman-falling.png": "/memory-card/static/media/stickman-falling.87994fc2d669e630b946.png",
+    "static/media/stickman-painting.png": "/memory-card/static/media/stickman-painting.dcfe2fe8b2773821067d.png",
+    "static/media/contractor-stickman.png": "/memory-card/static/media/contractor-stickman.2ba411e709d85209feae.png",
+    "static/media/stickman-with-bow-and-arrow.png": "/memory-card/static/media/stickman-with-bow-and-arrow.184c5700cab20dd7a59f.png",
+    "index.html": "/memory-card/index.html",
+    "main.bda9c172.css.map": "/memory-card/static/css/main.bda9c172.css.map",
+    "main.d543d7b9.js.map": "/memory-card/static/js/main.d543d7b9.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bda9c172.css",
+    "static/js/main.d543d7b9.js"
+  ]
+}
