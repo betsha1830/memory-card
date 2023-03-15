@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  margin-top: 1.2em;
+}
+
+.footer-image {
+  margin: 0 1.5em 0 1.5em;
+}
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.running, .sleeping {
+  width: 8em;
+  height: 8em;
+}
+
+.linkedin, .github {
+  width: 3.2em;
+}
+
+.linkedin:hover, .github:hover {
+  cursor: pointer;
+}
+
+.right-side span {
+  font-family:'Amatic SC', cursive;
+  font-size: 2em;
+}

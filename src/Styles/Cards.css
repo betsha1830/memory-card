@@ -23,10 +23,9 @@
   border-radius: 5px;
 }
 
-.start-game-button:hover {
+.start-game-button:hover, .sticky-card:hover {
   cursor: pointer;
-  background-color: rgb(133, 133, 133);
-  color: white;
+  box-shadow: 0 0 12px 3px rgba(103, 103, 103, 1);
 }
 
 .sticky-card {
@@ -36,12 +35,12 @@
   font-family: 'Nanum Pen Script', cursive;
   align-items: center;
   text-align: center;
-  justify-content: space-evenly;
-  max-width: 30em;
-  min-width: 18em;
+  justify-content: space-between;
+  max-width: 15em;
+  min-width: 15em;
   margin-top: 2em;
   border-radius: 5px;
-  height: 380px;
+  height: 320px;
 }
 
 .sticky-card:hover {
@@ -53,6 +52,6 @@
 }
 
 .game-card {
-  width: 15em;
-  height: 15em;
+  width: 12em;
+  height: 12em;
 }

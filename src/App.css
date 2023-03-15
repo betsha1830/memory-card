@@ -12,18 +12,65 @@
 
 }
 
+.filler-image {
+  width: 8em;
+  height: 8em;
+  position: absolute;
+}
+
+.falling {
+  left: 0;
+  top: 0;
+  transform: scaleX(-1);
+}
+
+.working{
+  left: 0;
+  top: 13em;
+  transform: scaleX(-1);
+}
+
+.painting {
+  right: 0;
+  top: 0;
+}
+
+.boxing {
+  left: 44em;
+  top: 12em;
+  transform: scaleX(-1);
+}
+
+.scores {
+  max-width: 15em;
+}
+
 .score-instruction {
+  margin-top: 3.5em;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.instruction {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.8em;
+  color: rgba(103, 103, 103, 1);
+  width: 12em;
+  text-align: justify;
 }
 
 h1 {
+  margin: 0;
   font-family: 'Amatic SC', cursive;
+  font-size: 4em;
 }
 
-span {
+h2 {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 2em;
-  color: rgba(103, 103, 103, 1);
+  margin: 0;
 }
+
