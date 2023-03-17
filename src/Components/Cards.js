@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import {motion} from 'framer-motion'
 import '../Styles/Cards.css'
 import PresentingSticky from '../Images/doodle-man-presenting-graph.png'
 import KingSticky from '../Images/king-stickman.png'
@@ -67,14 +68,14 @@ export default function Cards(props) {
 
   return (
     <div className='parent'>
-      <button className='start-game-button' onClick={randomizer}>Start Game</button>
+      <motion.button whileHover={{cursor: 'pointer', scale: 1.05, boxShadow: '0 0 8px 3px rgba(103, 103, 103, 1)'}} className='start-game-button' onClick={randomizer}>Start Game</motion.button>
       <div className='cards'>
         {props.passRandomItem.map(item => {
           return(
-            <div onClick={() => checkSelection(item)} className='sticky-card'>
+            <motion.div whileHover={{cursor: 'pointer', scale: 1.05, boxShadow: '0 0 8px 3px rgba(103, 103, 103, 1)'}} onClick={() => checkSelection(item)} className='sticky-card'>
               <img className='game-card' src={card_name_with_titles[item]} alt={''}></img>
               <h4 className='card-description'>{item}</h4>
-            </div>
+            </motion.div>
           )
         })}
       </div>

@@ -23,10 +23,10 @@
   border-radius: 5px;
 }
 
-.start-game-button:hover, .sticky-card:hover {
+/* .start-game-button:hover, .sticky-card:hover {
   cursor: pointer;
   box-shadow: 0 0 12px 3px rgba(103, 103, 103, 1);
-}
+} */
 
 .sticky-card {
   display: flex;
@@ -43,9 +43,9 @@
   height: 320px;
 }
 
-.sticky-card:hover {
+/* .sticky-card:hover {
   cursor: pointer;
-}
+} */
 
 .card-description {
   font-size: 2em;
