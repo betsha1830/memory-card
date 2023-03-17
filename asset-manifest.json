@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.bda9c172.css",
-    "main.js": "/memory-card/static/js/main.d543d7b9.js",
+    "main.css": "/memory-card/static/css/main.3b00e6bb.css",
+    "main.js": "/memory-card/static/js/main.7b1a1cf3.js",
     "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
     "static/media/stickman-running-on-treadmill.png": "/memory-card/static/media/stickman-running-on-treadmill.2b66c87beabb1821403e.png",
     "static/media/stickman-watching-tv.png": "/memory-card/static/media/stickman-watching-tv.fabd1fa1e6c10c2cff9e.png",
@@ -19,12 +19,12 @@
     "static/media/contractor-stickman.png": "/memory-card/static/media/contractor-stickman.2ba411e709d85209feae.png",
     "static/media/stickman-with-bow-and-arrow.png": "/memory-card/static/media/stickman-with-bow-and-arrow.184c5700cab20dd7a59f.png",
     "index.html": "/memory-card/index.html",
-    "main.bda9c172.css.map": "/memory-card/static/css/main.bda9c172.css.map",
-    "main.d543d7b9.js.map": "/memory-card/static/js/main.d543d7b9.js.map",
+    "main.3b00e6bb.css.map": "/memory-card/static/css/main.3b00e6bb.css.map",
+    "main.7b1a1cf3.js.map": "/memory-card/static/js/main.7b1a1cf3.js.map",
     "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda9c172.css",
-    "static/js/main.d543d7b9.js"
+    "static/css/main.3b00e6bb.css",
+    "static/js/main.7b1a1cf3.js"
   ]
 }
