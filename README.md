@@ -1,6 +1,6 @@
 # memory-card
 
-A memory card game with 15 different unique items with a goal to select all the items without selecting one item more than once.
+A memory card game with 10 different unique items with a goal to select all the items without selecting one item more than once.
 
 Required
 
